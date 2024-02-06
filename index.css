@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+}
+
+.contact-card p, a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+}
+
+.contact-link:link{
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact-link:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.contact-link:hover{
+    color: black;
+    text-decoration: none;
+    font-size: 17.5px;
+}
+
+.education p{
+    margin-bottom: 0px;
+}
+
+.education p, i, a{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+}
+
+.job-title{
+    margin-bottom: 0px;
+}
+
+.project-title{
+    margin-bottom: 0px;
+}

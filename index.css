@@ -2,27 +2,49 @@
     display: flex;
 }
 
-.contact-card p, a{
+/* contact card styling */
+.contact-card{
     display: flex;
     flex-direction: column;
     margin-top: 2px;
+    margin-right: 10px;
+    background-color: black;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    color: white;
+}
+
+.contact-details{
+    margin-bottom: 2px;
+}
+
+.contact-card i{
+    margin-bottom: 14px;
 }
 
 .contact-link:link{
-    color: blue;
+    color: white;
     text-decoration: none;
     font-size: 16px;
 }
 
 .contact-link:visited{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .contact-link:hover{
-    color: black;
+    color: white;
     text-decoration: none;
-    font-size: 17.5px;
+    font-size: 16.5px;
+}
+
+img{
+    background-color: white;
+    margin-right: 2px;
+    margin-top: 2px;
+    height: 12px;
+    width: 13px;
 }
 
 .education p{

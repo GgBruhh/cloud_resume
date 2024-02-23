@@ -60,7 +60,7 @@ resource "azurerm_linux_function_app" "resume-function-app" {
   app_settings = {
     "AzureWebJobsFeatureFlags"      = "EnableWorkerIndexing"
     "AzureWebJobsSecretStorageType" = "files"
-    "CosmosDbConnectionSetting"     = "AccountEndpoint=https://camrynscloudresumedb.documents.azure.com:443/;AccountKey=iPJsQSQp5KaXJkYzj5vuA9mDhI5U6lYx0jezT0Rg24S2GMr0SvfcanK238Px4BVIeNkOgftpAh3SACDbS0GPjw=="
+    "CosmosDbConnectionSetting"     = var.cosmos_db_connection_string
   }
   builtin_logging_enabled = false
   client_certificate_mode = "Required"
